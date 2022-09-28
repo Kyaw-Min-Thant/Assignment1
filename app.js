@@ -25,8 +25,8 @@ app.get("/index", (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 
-app.get("/song", (req, res) => {
-    res.sendFile(__dirname + '/song.html')
+app.get("/movie", (req, res) => {
+    res.sendFile(__dirname + '/movie.html')
 })
 
 app.listen(port, localhost,()=>{
